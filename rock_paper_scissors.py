@@ -6,7 +6,6 @@ print(f"Opponent chose:  {opponent_choice}")
 
 if user_choice == opponent_choice:
     print("Tie")
-elif user_choice == 1 and opponent_choice == 3:
     print("You Win")
 else:
     print("You Lose")
